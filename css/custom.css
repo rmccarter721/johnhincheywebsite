@@ -3,6 +3,10 @@
     width: 100%;
 }
 
-h1{
+h1, h2{
     color: #1EAEDB;
+}
+
+h4{
+    color: red;
 }
