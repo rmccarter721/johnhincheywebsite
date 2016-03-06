@@ -3,9 +3,14 @@
     width: 100%;
 }
 
-h1,h2{
+h1{
     color: #1EAEDB;
+    font-weight:bolder;
   }
+ 
+ h2{
+    color: #1EAEDB;     
+}
 
 h4{
     color: #FF8F1A;
