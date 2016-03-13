@@ -3,13 +3,20 @@
     width: 100%;
 }
 
+.bottom-align{
+  display: inline-block;
+  height: 100%;
+  vertical-align: bottom;
+  width: 0px;
+}
+
 h1{
     color: #1EAEDB;
     font-weight:bold;
   }
- 
+
  h2{
-    color: #1EAEDB;     
+    color: #1EAEDB;
 }
 
 h4{

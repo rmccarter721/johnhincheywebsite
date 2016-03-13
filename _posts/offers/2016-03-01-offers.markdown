@@ -1,7 +1,7 @@
 ---
 layout: main
-title:  "Weekly Offer"
+title:  "Special Offer"
 date:   2016-03-01 22:47:47 +0000
 categories: offers
 ---
-This week, two for one engraving!
+Medal and Ribbon for only **£1**!
