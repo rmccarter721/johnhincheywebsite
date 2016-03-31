@@ -1,27 +1,25 @@
 ---
 layout: default
 ---
-      {% for post in site.categories.offers | limit 1 %}
-      <div class="row">
-        <div class="u-full-width" align="center">
-          <h4> {{ post.title }} </h4>
-          <h5>{{ post.content }}</h5>
-        </div>
-      </div>
-      {% endfor %}
-      <div class="row">
-        <div class="one-half column">
-          <div class="row">
-            <div class="u-full-width">
-              {% for post in site.categories.welcome %}
-                <h2> {{ post.title }} </h2>
-                {{ post.content }}
-              {% endfor %}
+      <div class="medium-8 columns">
+        {% for post in site.categories.mainpage reversed %}
+        <div class="blog-post">
+          {% if post.map %}
+          <object type="text/html" class="map" data="{{ post.map }}">
+          </object>
+          {% endif %}
+          <div class="row" id="content">
+            {% if post.image %}
+            <div class="medium-4 columns">
+              <img src="{{ post.image }}"/>
+            </div>
+            <div class="medium-8 columns">
+            {% else %}
+            <div class="medium-12 columns">
+            {% endif %}
+              {{ post.content }}
             </div>
           </div>
         </div>
-        <div class="one-half column">
-          <object type="text/html" class="map" class data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1152.2395574090572!2d-5.808297071412743!3d54.71878686818761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4861a193e18f3301%3A0xc773d0febb5f45b7!2s2+North+Rd%2C+Carrickfergus+BT38+8LW!5e0!3m2!1sen!2suk!4v1455998280419output=embed">
-          </object>
-        </div>
+        {% endfor %}
       </div>

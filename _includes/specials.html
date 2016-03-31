@@ -1,0 +1,8 @@
+      {% for post in site.categories.offers | limit 1 %}
+      <div class="medium-8 columns" align="center">
+        <div class="blog-post">
+          <h3>{{ post.title }}</h3>
+          {{ post.content }}
+        </div>
+      </div>
+      {% endfor %}

@@ -11,7 +11,7 @@ email: thetrophyshop@hotmail.co.uk
 description: > # this means to ignore newlines until "baseurl:"
   The Trophy Shop, Belfast.
   Engraver, seller of trophies and gifts.
-  Engraves Trophies and Jewelery,s
+  Engraves Trophies and Jewelery
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://thetrophyshopbelfast.co.uk" # the base hostname & protocol for your site
 
