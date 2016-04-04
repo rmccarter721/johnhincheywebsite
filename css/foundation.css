@@ -1205,7 +1205,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 h1 {
     font-family: 'Sansita One', cursive;
     font-size: 1.5rem;
-    color: #9C274A
+    color: #000000
 }
 
 h2 {
@@ -1290,11 +1290,11 @@ dl, ol, ul {
 }
 
 li {
-    font-family: Consolas, monaco, monospace;
     font-size: inherit
 }
 
 ul {
+    font-family: 'Sumana', serif;
     list-style-type: disc
 }
 
@@ -1358,7 +1358,7 @@ kbd {
     margin-top: .2rem;
     margin-bottom: .5rem;
     line-height: 1.4;
-    color: #8a8a8a
+    color: #333333
 }
 
 .lead {
@@ -2323,7 +2323,7 @@ select[multiple] {
 }
 
 .callout.primary {
-    background-color: #FFCCCC
+    background-color: #FF3300
 }
 
 .callout.primary a {

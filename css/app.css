@@ -2,7 +2,8 @@
     height: 300px;
     width: 100%;
 }
-ul{
+ul.sidebar{
+    font-family: Consolas, monaco, monospace;
     list-style-type: none;
 }
 
@@ -19,4 +20,9 @@ img.email {
 li.bold {
   font-weight: 900;
   color: #9C274A;
+}
+
+h4.bold {
+  font-style: italic;
+  font-weight: 900;
 }
