@@ -1,4 +1,4 @@
 ---
-layout: catalogs
+layout: catalogues
 title: Home
 ---

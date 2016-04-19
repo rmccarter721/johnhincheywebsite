@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-      {% for post in site.categories.catalogstext | limit 1 %}
+      {% for post in site.categories.cataloguestext | limit 1 %}
       <div class="medium-8 columns" align="center">
         <div class="blog-post">
           {{ post.content }}
@@ -10,11 +10,11 @@ layout: default
       {% endfor %}
       <div class="medium-8 columns" align="center">
         <div class="row small-up-2 large-up-2">
-          {% for catalog in site.categories.catalogs %}
+          {% for catalogue in site.categories.catalogues %}
           <div class="column">
-            <a href="{{ catalog.link }}" target="_blank">
-              <h5>{{ catalog.title }}</h5>
-              <img class="thumbnail" src="{{ catalog.image}}">
+            <a href="{{ catalogue.link }}" target="_blank">
+              <h5>{{ catalogue.title }}</h5>
+              <img class="thumbnail" src="{{ catalogue.image}}">
             </a>
           </div>
           {% endfor %}

@@ -3,4 +3,5 @@ title:  "Special Offer"
 date:   2016-03-01 22:47:47 +0000
 categories: offers
 ---
-Medal and Ribbon for only **£1**!
+Medal and Ribbon always only **£1**   
+Special offers always available.
