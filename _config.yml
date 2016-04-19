@@ -6,12 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: John Hinchey Engraving
-email: ryanmccarter721@gmail.com
+title: The Trophy Shop
+email: thetrophyshop@hotmail.co.uk
 description: > # this means to ignore newlines until "baseurl:"
-  John Hinchey Engraving, Carrickfergus.
+  The Trophy Shop, Belfast.
+  Engraver, seller of trophies and gifts.
+  Engraves Trophies and Jewelery
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://thetrophyshopbelfast.co.uk" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown

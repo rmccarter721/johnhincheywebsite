@@ -1,0 +1,34 @@
+      <div class="medium-3 columns">
+        <div class="sticky">
+          <h4>Address</h4>
+          <ul class="sidebar">
+            <li>The Trophy Shop</li>
+            <li>Unit 20,</li>
+            <li>Smithfield Market,</li>
+            <li>Winetavern Street,</li>
+            <li>Belfast,</li>
+            <li>BT1 1JE</li>
+          </ul>
+          <h4>Opening Hours</h4>
+          {% capture currentday %}{{'now' | date: '%a'}}{% endcapture %}
+
+          <ul class="sidebar">
+            <li{% if currentday == "Mon" %} class="bold" {% endif %}>MON : 09:30 - 16:30</li>
+            <li{% if currentday == "Tue" %} class="bold"{% endif %}>TUE : 09:30 - 16:30</li>
+            <li{% if currentday == "Wed" %} class="bold"{% endif %}>WED : 09:30 - 16:30</li>
+            <li{% if currentday == "Thu" %} class="bold"{% endif %}>THU : 09:30 - 16:30</li>
+            <li{% if currentday == "Fri" %} class="bold"{% endif %}>FRI : 09:30 - 16:30</li>
+            <li{% if currentday == "Sat" %} class="bold"{% endif %}>SAT : 10:00 - 12:30</li>
+            <li{% if currentday == "Sun" %} class="bold"{% endif %}>SUN : CLOSED</li>
+          </ul>
+          <h4>Phone</h4>
+          <ul class="sidebar">
+            <li>028 9043 8531</li>
+          </ul>
+          <ul class="sidebar">
+            <li><a href="https://facebook.com/thetrophyshop" target="_blank"><img src="img/facebook.png" class="facebook"></a>
+            <a href="mailto:thetrophyshop@hotmail.co.uk?subject=Website Enquiry"><img src="img/email.png" class="email"></a></li>
+          </ul>
+          <h4 class="bold">Cash Only<h4>
+        </div>
+      </div>

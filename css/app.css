@@ -1,0 +1,28 @@
+.map{
+    height: 300px;
+    width: 100%;
+}
+ul.sidebar{
+    font-family: Consolas, monaco, monospace;
+    list-style-type: none;
+}
+
+img.facebook {
+  width: 40px;
+  height: 40px;
+}
+
+img.email {
+  width: 40px;
+  height: 30px;
+}
+
+li.bold {
+  font-weight: 900;
+  color: #9C274A;
+}
+
+h4.bold {
+  font-style: italic;
+  font-weight: 900;
+}

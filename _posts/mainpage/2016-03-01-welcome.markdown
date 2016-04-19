@@ -1,0 +1,8 @@
+---
+date:   2016-03-01 22:47:47 +0000
+categories: mainpage
+map: http://www.openstreetmap.org/export/embed.html?bbox=-5.935747325420379%2C54.60090111534507%2C-5.9332528710365295%2C54.601963845132886&amp;layer=mapnik&amp;marker=54.60143248370626%2C-5.934500098228455
+---
+**Welcome to The Trophy Shop**  
+
+The Trophy Shop is a company specialising in engraving and trophy sales. With over 30 years engraving expertise, we aim to ensure that all products are personalised to your individual requirements and needs. We provide a fast, friendly, professional and reliable service that will not disappoint!
