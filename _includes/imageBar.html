@@ -1,0 +1,17 @@
+{% assign barImages = '' | split: ',' %}
+{% assign counter = 0 %}
+
+{% for image in site.static_files %}
+    {% if image.path contains 'img/small' %}
+	    {% assign barImages = barImages | push: image %}
+	    {% assign counter = counter | plus: 1 %}
+    {% endif %}
+{% endfor %}
+
+  <div class="row hide-for-small-only">
+{% for image in barImages %}
+      <div class="medium-{{ 12 | divided_by: counter }} columns" align="center">
+        <img src="{{ image.path }}" class="bar"/>
+      </div>
+{% endfor %}
+  </div>

@@ -2,6 +2,7 @@
 layout: default
 ---
 {% include specials.html %}
+
       <div class="medium-8 columns">
         {% for post in site.categories.mainpage reversed %}
         <div class="blog-post">
@@ -9,18 +10,30 @@ layout: default
           <object type="text/html" class="map" data="{{ post.map }}">
           </object>
           {% endif %}
-          <div class="row" id="content">
-            {% if post.image %}
-            <div class="medium-3 columns">
-              <img src="{{ post.image }}"/>
-            </div>
-            <div class="medium-9 columns">
-            {% else %}
-            <div class="medium-12 columns">
-            {% endif %}
-              {{ post.content }}
-            </div>
+          {% assign noImage = true %}
+          {% if post.imageLeft %}
+          {% assign noImage = false %}
+          <div class="medium-3 columns">
+            <img src="{{ post.imageLeft }}" class="page"/>
           </div>
+          <div class="medium-9 columns">
+            {{ post.content }}
+          </div>
+          {% endif %}
+          {% if post.imageRight %}
+          {% assign noImage = false %}
+          <div class="medium-9 columns">
+            {{ post.content }}
+          </div>
+          <div class="medium-3 columns">
+            <img src="{{ post.imageRight }}" />
+          </div>
+          {% endif %}
+          {% if noImage %}
+          <div class="medium-12 columns">
+            {{ post.content }}
+          </div>
+          {% endif %}
         </div>
         {% endfor %}
       </div>
